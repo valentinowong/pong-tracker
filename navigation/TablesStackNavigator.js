@@ -8,13 +8,12 @@ const Stack = createNativeStackNavigator();
 export default function TablesStackNavigator() {
     return (
         <Stack.Navigator>
+            <Stack.Screen name="My Tables" component={MyTablesScreen} />
             <Stack.Screen 
-                name="Table Tab Navigator" 
+                name="TableTabNavigator" 
                 component={TableTabNavigator} 
                 options={{ headerShown: false }}
             />
-            <Stack.Screen name="My Tables" component={MyTablesScreen} />
-            {/* <Stack.Screen name="Table" component={TableTabNavigator} /> */}
         </Stack.Navigator>
     );
 };
