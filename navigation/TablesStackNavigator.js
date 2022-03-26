@@ -12,7 +12,10 @@ export default function TablesStackNavigator() {
             <Stack.Screen 
                 name="TableTabNavigator" 
                 component={TableTabNavigator} 
-                options={{ headerShown: false }}
+                options={{ 
+                    title: "",
+                    // headerShown: false 
+                }}
             />
         </Stack.Navigator>
     );
