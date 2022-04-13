@@ -1,0 +1,54 @@
+Arguments: 
+  /Users/valentino/.nvm/versions/node/v16.14.2/bin/node /usr/local/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js add native-base
+
+PATH: 
+  /Users/valentino/.nvm/versions/node/v16.14.2/bin:/Users/valentino/.rvm/gems/ruby-2.6.1/bin:/Users/valentino/.rvm/gems/ruby-2.6.1@global/bin:/Users/valentino/.rvm/rubies/ruby-2.6.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/valentino/Library/Android/sdk/platform-tools:/Users/valentino/.rvm/gems/ruby-2.6.1/bin:/Users/valentino/.rvm/gems/ruby-2.6.1@global/bin:/Users/valentino/.rvm/rubies/ruby-2.6.1/bin:/Users/valentino/.rvm/bin:/Users/valentino/.rvm/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/valentino/Development/code/pong-tracker/node_modules/@babel/core/node_modules/@babel/code-frame'
+
+npm manifest: 
+  {
+    "name": "pong-tracker",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-navigation/bottom-tabs": "^6.2.0",
+      "@react-navigation/native": "^6.0.8",
+      "@react-navigation/native-stack": "^6.5.0",
+      "expo": "^44.0.0",
+      "expo-status-bar": "~1.2.0",
+      "react": "17.0.1",
+      "react-dom": "17.0.1",
+      "react-native": "0.64.3",
+      "react-native-web": "0.17.1",
+      "react-native-screens": "~3.10.1",
+      "react-native-safe-area-context": "3.3.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
