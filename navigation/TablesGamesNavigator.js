@@ -21,7 +21,18 @@ export default function TablesGamesNavigator( {navigation} ) {
                     ),
                   }}
             />
-            <Stack.Screen name="New Game" component={NewGameScreen} />
+            <Stack.Screen 
+              name="New Game" 
+              component={NewGameScreen}
+              options={{
+                headerRight: () => (
+                  <Button
+                    // onPress={() => (navigation.navigate('New Game'))}
+                    title="Save"
+                  />
+                ),
+              }}
+            />
         </Stack.Navigator>
     );
 };
